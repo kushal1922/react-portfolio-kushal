@@ -3,6 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
@@ -16,6 +17,7 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer"
+          title="LinkedIn"
         >
           <FaLinkedin />
         </a>
@@ -24,6 +26,7 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer"
+          title="Github"
         >
           <FaGithub />
         </a>
@@ -32,6 +35,7 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer"
+          title="Twitter"
         >
           <FaSquareXTwitter />
         </a>
@@ -40,9 +44,20 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer"
+          title="Instagram"
         >
           <FaInstagram />
         </a>
+        {/* <a
+          href="\src\assets\KUSHAL GUPTA.pdf"
+          download="KUSHAL GUPTA.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cursor-pointer"
+          title="Download Resume"
+        >
+          <FaDownload />
+        </a> */}
       </div>
     </nav>
   );

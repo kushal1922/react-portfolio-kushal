@@ -4,6 +4,7 @@ import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
+import ScrollToTopButton from "./components/ScrollToTopButton ";
 import Technologies from "./components/Technologies";
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
         <Experience />
         <Projects />
         <Contact />
+        <ScrollToTopButton />
       </div>
     </div>
   );
